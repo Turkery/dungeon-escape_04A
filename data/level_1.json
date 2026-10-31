@@ -1,0 +1,22 @@
+{
+  "grid_size": [20, 15],
+  "tile_size": 32,
+  "player_start": [1, 1],
+  "exit": {
+    "pos": [18, 13],
+    "requires_all_doors_open": true
+  },
+  "walls": [
+    [0, 0], [1, 0], [2, 0], [3, 0], [4, 0],
+    [0, 1], [0, 2], [0, 3], [0, 4]
+  ],
+  "doors": [
+    {"id": "door_red", "color": "red", "pos": [5, 2]}
+  ],
+  "keys": [
+    {"id": "key_red", "color": "red", "pos": [2, 2]}
+  ],
+  "enemies": [
+    {"id": "enemy_1", "path": [[8, 5], [12, 5]], "speed": 100}
+  ]
+}
