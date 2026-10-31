@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Virtual Environment & Saves
+venv/
+.env
+*.save
+savegame.json
